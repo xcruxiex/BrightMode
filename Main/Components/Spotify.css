@@ -1,0 +1,10 @@
+/* ==== Spotify Coloring ==== */
+.attachButtonPlay-3iJ0mf,.lookInverted-2D7oAl.colorGreen-29iAKY {
+    color: var(--spotify-color);}
+.attachPopoutRow-3iqqu1:hover:nth-child(2),.headerSpotify-zpWxgT,.topSectionSpotify-1lI0-P {
+    background-color: var(--spotify-color);}
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    background-color: white;
+    color: var(--spotify-color);}
+.listenAlongIcon-2vb1HG {
+    color: inherit;}

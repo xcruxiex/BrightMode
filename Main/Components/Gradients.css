@@ -1,0 +1,68 @@
+/* ==== Gradients ==== */
+/* Adds a gradient to option buttons. */
+.focused-3afm-j, .focused-3ZzkKr, #guild-header-popout-invite-people.focused-3afm-j, #guild-context-invite-people.focused-3afm-j, #channel-context-invite-people.focused-3afm-j { 
+    color: rgb(255, 255, 255) !important;
+    background-image: var(--main-gradient);
+    transition: 0.05s linear;}
+#message-delete.focused-3afm-j, #guild-header-popout-leave.focused-3afm-j, #guild-context-leave-guild.focused-3afm-j, #message-actions-delete.focused-3afm-j, #user-context-kick.focused-3afm-j, #user-context-ban.focused-3afm-j, #user-context-voice-disconnect.focused-3afm-j, #user-context-voice-deafen.focused-3afm-j, #user-context-voice-mute.focused-3afm-j, #channel-context-delete-channel.focused-3afm-j { 
+    color: rgb(255, 255, 255) !important;
+    background-image: var(--red-gradient);}
+.focused-3afm-j > .imageContainer-2fGqYU > img, .focused-3ZzkKr > img { 
+   transform: scale(1.3);
+   transition: 0.1s linear;}
+/* Status Menu Gradients. */
+#guild-header-popout-premium-subscribe.focused-3afm-j { 
+   color: rgb(255, 255, 255) !important;
+   background-image: var(--server-boost-gradient);}
+#status-picker-online.focused-3afm-j { 
+    background-image: var(--green-graident);}
+#status-picker-idle.focused-3afm-j { 
+    background-image: var(--orangeish-yellow-gradient);}
+#status-picker-dnd.focused-3afm-j { 
+    background-image: var(--red-gradient);}
+#status-picker-invisible.focused-3afm-j { 
+    background-image: var(--grey-gradient);}
+/* Button Gradients on server list. (Home, add server, discovery icons + servers with no picture).*/
+.wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 {
+    background-image: var(--main-gradient);
+    font-size: 15px;
+    font-weight: bold;}
+.selected-ugP_am {
+    background-image: var(--main-gradient);
+    font-size: 15px;
+    font-weight: bold;}
+ .wrapper-1BJsBx.selected-bZ3Lue > .childWrapper-anI2G9 > .homeIcon-tEMBK1 {
+    transform: scale(1.1);
+    transition: 0.1s linear;}
+ .circleIconButton-jET_ig {
+    transition: 0.1s linear;}
+ .selected-ugP_am > svg {
+    transform: scale(1.3);}
+/* Buttons that are in settings. */
+.item-PXvHYJ:hover, [data-item-id="DiscordNitro"]:focus:hover, .valueChecked-m-4IJZ:hover, .button-38aScr.lookFilled-1Gx00P:hover, .colorRed-1TFJan:hover, [data-item-id="logout"]:hover { 
+    transform: scale(1.05);
+    transition: 0.1s linear;}
+.item-PXvHYJ.selected-3s45Ha, [data-item-id="DiscordNitro"]:focus, .valueChecked-m-4IJZ, .button-38aScr.lookFilled-1Gx00P { 
+    background-image: var(--main-gradient) !important;}
+.colorRed-1TFJan {
+    background-image: var(--red-gradient);}
+.colorRed-1TFJan > .contents-18-Yxp {
+    color: rgb(255,255,255);}
+[data-item-id="logout"]:focus {
+    background-image: var(--red-gradient);}
+/* Colored Buttons. */
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-image: var(--green-graident) !important;}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    transform: scale(1.05) !important;
+    transition: 0.1s linear;} 
+.button-38aScr.lookFilled-1Gx00P.colorYellow-2JqYwt { 
+    background-image: var(--orange-gradient) !important}
+.button-38aScr.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-image: var(--red-gradient) !important}
+/* Unread, Selected and Hover servers */
+.item-2hkk8m    {
+	background-image: var(--main-gradient) !important;}
+/* Other unsorted gradients. */
+.bar-2Qqk5Z > .barFill-23-gu- { 
+    background-image: var(--main-gradient) !important;}
