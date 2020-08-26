@@ -1,2 +1,2 @@
 # BrightMode
-A lightmode teheme for betterdiscord
+A lightmode theme for betterdiscord
